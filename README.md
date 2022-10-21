@@ -5,6 +5,10 @@
 - Onstart, loads in contextBridge that allows for main.js (Node.js instance running on the client's computer) to communicate with renderer.js (Web instance) and vice versa
 - This also acts as a security layer for clearly defining the scope of what the electron can access via Node.js (system access), preventing malicious code!
 
-# Resources on Inter-Process Communication (IPC)
+## Resources on Inter-Process Communication (IPC)
 - https://www.electronjs.org/docs/latest/tutorial/ipc 
 - https://www.electronjs.org/docs/latest/api/ipc-renderer 
+
+## What's next: Packaging Electron
+This is important to sharing electron apps for people to use :D I love chromium
+- https://www.electronjs.org/docs/latest/tutorial/tutorial-packaging 
